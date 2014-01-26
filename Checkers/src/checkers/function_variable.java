@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author michael
  */
-public class function_variable.java {
+public class function_variable {
     // Instance variable
     String name;
     String instructions = "This is the game of checkers. \n\n"
