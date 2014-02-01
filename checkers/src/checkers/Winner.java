@@ -9,8 +9,8 @@ package checkers;
 import java.util.Scanner;
  
 public class Winner {
-    int won = 6;
-    int lost = 12;
+    int won = 12;
+    int lost = 6;
     int total = 0;
     
     Scanner input = new Scanner(System.in);
