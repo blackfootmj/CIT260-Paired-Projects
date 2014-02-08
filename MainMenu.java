@@ -18,13 +18,11 @@ public class MainMenu {
     
     String instructions = "Welcome to Checkers! Plese select an option below to begin.";
     String selection= "Default";
-    int menuItems = 6;
+    int menuItems = 4;
     boolean valid = false;
     private final static String[][] menus = {
         {"I", "Game play instructions"}, 
-        {"N", "Menu Navigation"},
 	{"G", "General"},
-	{"R", "Return to previous menu"},
         {"1", "1 Player game"},
 	{"2", "2 Player game"},
 
@@ -53,11 +51,7 @@ public class MainMenu {
 	    switch(selection){
 		case "I": this.mainMenuControl.instructions();
 		    break;
-		case "N": this.mainMenuControl.navigation();
-		    break;
 		case "G": this.mainMenuControl.general();
-		    break;
-		case "R": this.returnTo.displayMenu();
 		    break;
                 case "1": this.mainMenuControl.navigation();
 		    break;
