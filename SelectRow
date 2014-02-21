@@ -9,7 +9,7 @@ package chkrs;
 import java.util.Scanner;
 /**
  *
- * @author bensmac
+ * @author michael
  */
 public class SelectRow {
     Scanner input = new Scanner(System.in);
