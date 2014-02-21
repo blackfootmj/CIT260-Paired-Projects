@@ -2,7 +2,7 @@ package chkrs;
 
 /**
  *
- * @author bensmac
+ * @author bensmac / Michael
  */
 public class Intel {
     public int[][] holder = {{0,0,0}};
@@ -25,7 +25,7 @@ public class Intel {
     };
     
     // this function looks at the piece on the board and orders them according to their move weight
-    // we can use this function for AI. The computer will use this function to make a move base on the pieces weights.
+    // we can use this function for AI. The computer will use this function to make a move based on the pieces weights.
     public void sortMoves(){
 	for(int i = 0; i < moves.length; i++){
 	    for(int j = 0; j < moves.length-1; j++){
