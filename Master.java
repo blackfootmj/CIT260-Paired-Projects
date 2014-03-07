@@ -1,16 +1,16 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
 package chkrs;
-
 
 /**
  *
  * @author bensmac
  */
-public class Chkrs {
-   
-    
-    
-    public static void main(String[] args) {
+public class Master {
 	int r = 0;
 	int c = 0;
 	int ir = 0;
@@ -20,8 +20,8 @@ public class Chkrs {
 	//intel2.checkAPiece();
 	//intel2.compareValues();
 	Board board = new Board();
-	
-	/**/for(int i = 0; i < 2000; i++){
+	public void masterRun(){
+	for(int i = 0; i < 2000; i++){
 	if(intel.forTheComWin == 12){
 	    System.out.println("Your simply not the best. The computers are the best.");
 	    break;
@@ -53,15 +53,5 @@ public class Chkrs {
 	
 	intel2.run(r, c, ir, ic);
 	}
-	/*
-	PlayerInfo playerinfo = new PlayerInfo();
-	playerinfo.getName();
-	
-	MenuMain menuMain = new MenuMain();
-	menuMain.getInput();
-	*/
-	
-	
-    }
-   
+	}
 }
