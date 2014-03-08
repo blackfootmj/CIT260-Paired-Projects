@@ -9,7 +9,7 @@ package chkrs;
 import java.util.Scanner;
 /**
  *
- * @author bensmac
+ * @author michael
  */
 public class SelectRow {
     Scanner input = new Scanner(System.in);
@@ -20,18 +20,18 @@ public class SelectRow {
     public int converted;
     public SelectRow(){
 	
-    }
-    public int getInput(){
+   	}
+    	public int getInput(){
 	while(!valid){
 	System.out.println(instructions);
 	selection = input.next();
 	valid = validateCommand(selection);
-	    if(valid){
+	  	if(valid){
 		converted = Integer.parseInt(selection);
-	    }
-	}
+	   		}
+		}
 	return converted;
-    }
+    		}
     private boolean validateCommand(String selection){
 	for(int i = 0;i < 8;i++){
 	    if(validInputs[i].equals(selection)){
